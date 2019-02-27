@@ -9,5 +9,3 @@
 //     console.log('do something');
 //   }
 // };
-
-// adding comment
