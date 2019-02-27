@@ -1,0 +1,17 @@
+{
+  "name": "git-hooks-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "eslint index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "0.7.0"
+  },
+  "author": "Monica Powell",
+  "license": "MIT"
+}
