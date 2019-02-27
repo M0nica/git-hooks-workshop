@@ -1,4 +1,6 @@
-var nameChecker = function(name) {
+// bad styling
+
+const nameChecker = function(name) {
   if (name == "Cardi") {
     console.log("Party with Cardi");
   }

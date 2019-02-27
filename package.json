@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepush": "eslint index.js"
+    "prepush": "clean",
+    "clean": "yarn lint --fix",
+    "lint": "eslint . --ext .js,.jsx"
   },
   "devDependencies": {
     "eslint": "^5.14.1",
