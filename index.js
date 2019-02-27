@@ -1,4 +1,4 @@
-// bad styling
+// bad styling that should fail eslint
 
 const nameChecker = function(name) {
   if (name == "Cardi") {
