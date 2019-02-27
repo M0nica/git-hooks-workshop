@@ -9,8 +9,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && clean",
-      "pre-push": "npm test && clean"
+      "pre-commit": "yarn clean",
+      "pre-push": "yarn clean"
     }
   },
   "devDependencies": {
