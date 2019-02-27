@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepush": "clean",
     "clean": "yarn lint --fix",
     "lint": "eslint . --ext .js,.jsx"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test && clean",
+      "pre-push": "npm test && clean"
+    }
   },
   "devDependencies": {
     "eslint": "^5.14.1",
