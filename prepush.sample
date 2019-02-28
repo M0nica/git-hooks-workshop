@@ -6,6 +6,9 @@
 #   At: 2019-2-27 15:56:54
 #   See: https://github.com/typicode/husky#readme
 
+# Modified by Monica
+# to add logic to warn when committing to protected branch
+
 # From npm package
 #   Name: husky
 #   Directory: /Users/mpowell/Dev/git-hooks-workshop/node_modules/husky
